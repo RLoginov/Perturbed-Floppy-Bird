@@ -1,1 +1,10 @@
-# Perturbed-Flippy-Bird
+The objective of the game is to complete each level by getting to the finish line at the end. This is done by first launching the bird from the catapult with the Spacebar. From there, the Spacebar is also used to control the bird by moving it upwards at a force of 100f, counteracting the downward force of 200f that is constantly being applied to it. The bird is also constantly moving to the right of the screen, towards the finish line. It is up to the player to avoid the white columns and lasers being fired while destroying the black turrets by knocking into them or having them knock into each other
+.
+Initially, my vision for the game was to combine both Angry Birds and Flappy Birds in separate segments, where the player must go in between columns and then would have the ability to destroy the enemy units. However, I felt it would be more natural if both elements were incorporated together. By allowing for the turrets to be knocked into each other, each level becomes easier as one goes through it due to the lasers from further turrets becoming disabled. 
+
+If given more time, I would implement more levels and allow for more varying level design. Turrets were placed in specific spots because of the ability for lasers to knock down other turrets, which is unintentional. If this were to be solved, turrets could be placed in quick succession with less vertical space between them. 
+
+Similarly, if given more time, the physics of the turrets would be perfected. Currently, the variable nature of the physics may cause odd glitches, such as turrets launching to the player into columns or into the top of the screen. 
+
+From this project, I learned a new means of manipulating the camera, by keeping it and place and moving the ground instead. This contrasts with a different Unity game I created, for CPE 481, where I move the camera to the right.  
+I also learned, based on watching people play my game, that I should make my instructions clearer as players may come into the game with different expectations. Lastly, I should be expected to cater to all types of players so that they may experience the game instead of being stuck due to the difficulty.  
